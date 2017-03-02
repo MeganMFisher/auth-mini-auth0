@@ -1,0 +1,29 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "UserViewer ==============",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeganMFisher/auth-mini-auth0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeganMFisher/auth-mini-auth0/issues"
+  },
+  "homepage": "https://github.com/MeganMFisher/auth-mini-auth0#readme",
+  "dependencies": {
+    "auth0": "^2.6.0",
+    "express": "^4.15.0",
+    "express-session": "^1.15.1",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-auth0": "^0.6.0",
+    "session": "^0.1.0"
+  }
+}
